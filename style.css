@@ -1,0 +1,245 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.overlay p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    color: #ffffff;
+}
+
+.overlay h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 93px;
+    color: #ffffff;
+}
+
+#top-banner {
+    background-image: url(images/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#top-banner .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .5);
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: green;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/* ==============top banner end================= */
+#Donate-Today {
+    text-align: center;
+}
+
+#Donate-Today h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+}
+
+#Donate-Today p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #444444;
+    text-align: center;
+}
+
+#Donate-Today .box {
+    width: 19%;
+    background-color: #dddddd;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    transition: .5s;
+    border: 2px solid #dddddd;
+}
+
+#Donate-Today .box:hover {
+    background-color: #fadfac;
+    border: 2px solid #fdbc43;
+}
+
+#Donate-Today .box h1 {
+    transition: .4s;
+}
+
+#Donate-Today .box h1:hover {
+    color: #0fb30fc9;
+}
+
+#Donate-Today h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #444444;
+}
+
+#Donate-Today input {
+    width: 50%;
+    margin-top: 50px;
+    border: 0;
+    border-bottom: 1.5px solid #dddddd;
+    outline: none;
+
+}
+
+#Donate-Today .button button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: green;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 0;
+}
+
+/* ==============top donate-today end================= */
+
+#our-donate {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#our-donate h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #000000;
+}
+
+#our-donate p {
+    text-align: center;
+}
+
+#our-donate .item {
+    width: 30%;
+    background-color: rgba(78, 159, 166, 0.212);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#our-donate .item .img {
+    text-align: left;
+}
+
+#our-donate .item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+}
+
+#our-donate .item p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #747272;
+    text-align: left;
+}
+
+#our-donate .itm2 {
+    background-color: rgba(255, 89, 89, 0.199);
+
+}
+
+#our-donate .itm3 {
+    background-color: rgba(252, 235, 1, 0.199);
+
+}
+
+/* ==============top our-donate end================= */
+#update {
+    margin-top: 100px;
+}
+
+#update h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+#update p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #747272;
+    text-align: center;
+}
+
+#update .one-item {
+    background-color: #FFF4D6;
+    width: 70%;
+    padding: 80px 0;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#update .one-item input {
+    outline: 0;
+    background-color: #dddddd;
+    border: 0;
+    padding: 15px 0;
+    width: 25%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+#update .one-item .button {
+    display: inline;
+}
+
+#update .one-item button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color: green;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* ==============top update end================= */
+
+footer {
+    background-color: #057c05;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+footer h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
