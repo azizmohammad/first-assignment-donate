@@ -171,6 +171,54 @@ a {
 }
 
 /* ==============top our-donate end================= */
+#about {
+    margin-top: 100px;
+    background-color: rgba(0, 100, 0, 0.294);
+    padding: 40px 0;
+}
+
+#about .item {
+    width: 45%;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px 15px;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+#about .item .img {
+    width: 67%;
+}
+
+#about .item img {
+    width: 100%;
+    text-align: center;
+}
+
+#about .item h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 40px;
+}
+
+#about .item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #444444;
+}
+
+#about .item p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: #444444;
+    width: 480px;
+    margin-bottom: 70px;
+}
+
+
+/* ==============top about end================= */
+
 #update {
     margin-top: 100px;
 }
@@ -225,7 +273,7 @@ a {
 /* ==============top update end================= */
 
 footer {
-    background-color: #057c05;
+    background-color: #006400;
     padding: 30px 0;
     margin-top: 100px;
 }
